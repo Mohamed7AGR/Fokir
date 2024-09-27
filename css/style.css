@@ -115,7 +115,6 @@ a {
 }
 .links ul li {
   padding-inline: 10px;
-  float: left;
 }
 .home {
   color: white;
@@ -144,76 +143,76 @@ a {
   font-weight: 300;
 }
 p.text-typed::after {
-  content: " ";
+  content: "";
   animation: typed 5s infinite;
 }
 
 @keyframes typed {
   0% {
-    content: "D |";
+    content: " D |";
   }
   4% {
-    content: "De |";
+    content: " De |";
   }
   8% {
-    content: "Des |";
+    content: " Des |";
   }
   12% {
-    content: "Desi |";
+    content: " Desi |";
   }
   16% {
-    content: "Desig |";
+    content: " Desig |";
   }
   20% {
-    content: "Design |";
+    content: " Design |";
   }
   34% {
-    content: "Designe |";
+    content: " Designe |";
   }
   38% {
-    content: "Designer |";
+    content: " Designer |";
   }
   42% {
-    content: "Designe |";
+    content: " Designe |";
   }
   46% {
-    content: "Desig |";
+    content: " Desig |";
   }
   50% {
-    content: "Desi |";
+    content: " Desi |";
   }
   54% {
-    content: "Des |";
+    content: " Des |";
   }
   58% {
-    content: "D |";
+    content: " D |";
   }
   62% {
-    content: "D |";
+    content: " D |";
   }
   66% {
-    content: "De |";
+    content: " De |";
   }
   70% {
-    content: "Dev |";
+    content: " Dev |";
   }
   74% {
-    content: "Deve |";
+    content: " Deve |";
   }
   78% {
-    content: "Devel |";
+    content: " Devel |";
   }
   82% {
-    content: "Develo |";
+    content: " Develo |";
   }
   86% {
-    content: "Develop |";
+    content: " Develop |";
   }
   90% {
-    content: "Develope |";
+    content: " Develope |";
   }
   94% {
-    content: "Developer |";
+    content: " Developer |";
   }
 }
 .about .about-img {
@@ -259,7 +258,6 @@ p.text-typed::after {
 }
 .about .about-text {
   width: 60%;
-
   padding-left: 55px;
   padding-block: 15px;
 }
@@ -294,10 +292,7 @@ p.text-typed::after {
   width: 100%;
   bottom: 0;
 }
-.about .about-text ul li {
-  float: left;
-  width: 50%;
-}
+
 .about .about-text ul li span {
   font-weight: 500;
   line-height: 36px;
@@ -324,8 +319,6 @@ p.text-typed::after {
 }
 
 .services .serv-item {
-  float: left;
-  width: 25%;
   padding: 25px;
   border-radius: 7px;
   transition: 0.5s background-color;
@@ -348,7 +341,6 @@ p.text-typed::after {
   margin: auto;
 }
 .portfolio .container ul li {
-  float: left;
   padding-left: 5px;
   text-align: center;
   width: 25%;
@@ -475,10 +467,7 @@ p.text-typed::after {
 .input-cont form input:first-child {
   margin-right: 4%;
 }
-.input-cont form input .last-input {
-  width: 100%;
-  height: 60px;
-}
+
 .input-cont textarea {
   position: relative;
   top: 0;
