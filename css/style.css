@@ -50,6 +50,9 @@ html {
 .w-33 {
   width: 33.3333%;
 }
+.w-48 {
+  width: 48%;
+}
 .w-50 {
   width: 50%;
 }
@@ -458,9 +461,7 @@ p.text-typed::after {
   margin: 0 auto;
   position: relative;
 }
-.w-48 {
-  width: 48%;
-}
+
 .input-cont form input {
   height: 60px;
   padding: 6px 12px;
@@ -507,7 +508,7 @@ p.text-typed::after {
 .input-cont button:hover {
   background-color: orangered;
 }
-.footer{
+.footer {
   background-color: #333333;
 }
 .footer .foot-icons i {
@@ -516,9 +517,9 @@ p.text-typed::after {
   color: white;
   margin-bottom: 20px;
 }
-.footer .foot-contnet p{
+.footer .foot-contnet p {
   color: white;
 }
-.footer .foot-contnet span a{
+.footer .foot-contnet span a {
   color: var(--main-color);
 }
